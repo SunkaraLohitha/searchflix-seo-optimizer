@@ -1,3 +1,58 @@
+# 🎬 SearchFlix: SEO Companion for Streaming Pages
+
+A full-stack web application that evaluates and scores the SEO quality of OTT content pages (like Netflix, Prime Video, etc.). It helps content teams, developers, and SEO specialists analyze metadata, detect missing elements, and export clean PDF reports — all in real-time.
+
+---
+
+## 🔍 Project Summary
+
+SearchFlix automates SEO metadata analysis for streaming content pages. Built with Flask and React, the tool provides an SEO score based on the presence of key tags like `<title>`, meta descriptions, Open Graph data, and more. It’s especially useful for QA, content, and marketing teams working on OTT platforms.
+
+---
+
+## ✨ Features
+
+- ✅ Real-time SEO scoring for any OTT content page
+- 🎯 Highlights missing tags like title, canonical, and meta description
+- 🌗 Dark/Light mode toggle
+- 🧾 PDF export of SEO report
+- 📜 SEO score history with timestamps
+- 🛡️ Input validation and graceful error handling
+- 🔗 Copy/share link feature
+
+---
+
+## 🛠️ Technologies Used
+
+| Layer       | Tech Stack                    |
+|-------------|-------------------------------|
+| Frontend    | React.js, JavaScript, HTML/CSS |
+| Backend     | Python, Flask, Flask-CORS     |
+| Parsing     | BeautifulSoup, Requests       |
+| Database    | SQLite + SQLAlchemy           |
+| Reporting   | html2pdf.js                   |
+
+---
+
+## ⚙️ How to Run Locally
+
+### 🔹 Backend (Flask + Python)
+
+```bash
+# Navigate to backend directory
+cd backend
+
+# (Optional) Create virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the backend
+python app.py
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
